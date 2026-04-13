@@ -1,0 +1,85 @@
+#fondo{
+    width: 100%;
+    height: 800px;
+    background-size: 100% 100%;
+    background-image: url("https://wallpapers.com/images/hd/beautiful-desktop-animal-m4vcklc88eilaxq8.jpg");
+}
+h1,p,h2{
+    font-size: 30px;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    text-align: center;
+    justify-content: center;
+}
+nav ul{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+nav ul li{
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    padding: 10px;
+}
+.na{
+    text-decoration: none;
+    color: white;
+    border-style: groove;
+    background-color: black;
+    border-radius: 10%;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+.carrusel{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    overflow: hidden; 
+}
+.slides{
+    display: flex;
+    width: 800%; 
+    animation: cambio 36s linear infinite;
+}
+
+.slides img{
+    max-width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+@keyframes cambio {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
