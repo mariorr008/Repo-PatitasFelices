@@ -216,3 +216,39 @@ font-size: 40px;
  #Tarjeta img:hover{
  transform: scale(1.2);
  }
+
+ #Contactos{
+    text-align: center;
+    margin: 90px 0px 0 0;
+    background-color: #A3B18A;
+}
+.Contactos{
+    text-align: center;
+    gap: 30%;
+}
+
+#Contactos img{
+ margin:0 10%;
+ height: 150px;
+ object-fit: cover;
+ border-radius: 20%;
+}
+ #img2{
+ grid-column: span 2;
+ grid-row: span 2;
+ margin: auto;
+ width: auto;
+}
+#Contactos img:hover{
+ transform: scale(1.2);
+}
+#TEL{
+    padding: 50PX;
+}
+
+#footer {
+    display: flex;
+    gap: 20%;
+    align-items: center;
+    background-color: #5f6751;;
+}
